@@ -2,21 +2,16 @@
 
 Electrical Engineering student.
 
-## Mostly working on
-
+## Work
 - Reinforcement Learning  
 - Multi-Agent Reinforcement Learning  
 - Risk-Sensitive RL  
 - Robust RL  
 
-## Occasionally
-
+## Other
 - Diffusion Models  
 - Computer Vision  
 
-## Tools
-
-- PyTorch  
-- CUDA  
-- Python  
+## Stack
+- PyTorch · CUDA · Python  
 - Linux > Windows

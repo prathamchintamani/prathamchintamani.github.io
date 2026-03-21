@@ -1,37 +1,32 @@
 ---
 ---
-html { font-size: 17px; }
+html {
+  font-size: 18px;  /* default is ~16px */
+}
 
 body {
     background-color: #0d1117 !important;
     color: #d9e6fd !important;
     font-family: 'Inter', sans-serif !important;
     padding: 0 !important;
-    letter-spacing: -0.01em;
-    text-rendering: optimizeLegibility;
 }
 .gemini-gradient {
-    background: linear-gradient(90deg, #4285f4, #9b72cb, #f7021a, #f4b400) !important;
+    background: linear-gradient(90deg, #4285f4, #9b72cb, #dd1d30, #f4b400) !important;
 }
 .mono-text {
     font-family: 'JetBrains Mono', monospace !important;
 }
 .content-container {
-  max-width: 1100px !important;   /* was 1280 → too wide illusion */
-}
-
-main > div {
-  margin-left: auto;
-  margin-right: auto;
+    max-width: 2048px !important;
 }
 ::-webkit-scrollbar {
-    width: 4px !important;
+    width: 8px !important;
 }
 ::-webkit-scrollbar-track {
     background: #0d1117 !important;
 }
 ::-webkit-scrollbar-thumb {
-    background: #1a2637 !important;
+    background: #ad003a !important;
 }
 
 /* Override jekyll-theme-minimal styles */

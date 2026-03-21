@@ -75,6 +75,25 @@
               "mono": ["JetBrains Mono", "monospace"]
             },
             borderRadius: {"DEFAULT": "0px", "lg": "0px", "xl": "0px", "full": "9999px"},
+            animation: {
+              "blob": "blob 10s infinite",
+            },
+            keyframes: {
+              blob: {
+                "0%": {
+                  transform: "translate(0px, 0px) scale(1)",
+                },
+                "33%": {
+                  transform: "translate(50px, -70px) scale(1.15)",
+                },
+                "66%": {
+                  transform: "translate(-40px, 40px) scale(0.85)",
+                },
+                "100%": {
+                  transform: "translate(0px, 0px) scale(1)",
+                },
+              },
+            },
           },
         },
       }
@@ -105,7 +124,23 @@
         }
   </style>
 </head>
-<body class="flex flex-col min-h-screen antialiased bg-[#0d1117]">
+<body class="flex flex-col min-h-screen antialiased bg-[#0a0e14] relative overflow-x-hidden">
+
+  <!-- Ambient Background Orbs -->
+  <div class="fixed inset-0 z-0 pointer-events-none overflow-hidden">
+    <!-- Top Left: Behind header, cool tone so text pops -->
+    <div class="absolute top-[-10%] left-[-10%] w-[600px] h-[600px] bg-blue-900/20 rounded-full mix-blend-screen filter blur-[150px] animate-blob" style="animation-duration: 12s;"></div>
+
+    <!-- Top Right: Behind nav -->
+    <div class="absolute top-[-5%] right-[-10%] w-[550px] h-[550px] bg-cyan-900/20 rounded-full mix-blend-screen filter blur-[150px] animate-blob" style="animation-duration: 15s; animation-delay: 2s;"></div>
+
+    <!-- Center: Soft background glow -->
+    <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[700px] h-[700px] bg-purple-900/20 rounded-full mix-blend-screen filter blur-[160px] animate-blob" style="animation-duration: 14s; animation-delay: 4s;"></div>
+
+    <!-- Bottom: Warm tone near footer -->
+    <div class="absolute bottom-[-15%] right-[10%] w-[600px] h-[600px] bg-rose-900/20 rounded-full mix-blend-screen filter blur-[150px] animate-blob" style="animation-duration: 18s; animation-delay: 1s;"></div>
+  </div>
+
   <header class="bg-[#0a0e14]/80 backdrop-blur-sm fixed top-0 w-full z-50 border-t-2 border-transparent"
   style="border-image: linear-gradient(to right, transparent, #f97316, #d946ef, #06b6d4, transparent) 1;">
 
@@ -146,7 +181,7 @@
     </div>
   </main>
 
-  <footer class="w-full py-8 border-t-[0.5px] border-[#1a2637] bg-[#0a0e14] relative">
+  <footer class="w-full mt-auto py-8 border-t-[0.5px] border-[#1a2637] bg-[#0a0e14] relative">
     <div class="absolute inset-x-0 top-0 h-[1px] bg-gradient-to-r from-transparent via-purple-500/50 to-red-500/0"></div>
     <div class="max-w-[1200px] mx-auto px-4 md:px-8 flex flex-col md:flex-row justify-end items-center gap-6">
       <div class="flex flex-wrap justify-end gap-x-12 gap-y-4">

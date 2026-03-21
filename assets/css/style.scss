@@ -1,5 +1,8 @@
 ---
 ---
+html {
+  font-size: 18px;  /* default is ~16px */
+}
 
 body {
     background-color: #0d1117 !important;
@@ -8,22 +11,22 @@ body {
     padding: 0 !important;
 }
 .gemini-gradient {
-    background: linear-gradient(90deg, #4285f4, #9b72cb, #d96570, #f4b400) !important;
+    background: linear-gradient(90deg, #4285f4, #9b72cb, #dd1d30, #f4b400) !important;
 }
 .mono-text {
     font-family: 'JetBrains Mono', monospace !important;
 }
 .content-container {
-    max-width: 1024px !important;
+    max-width: 2048px !important;
 }
 ::-webkit-scrollbar {
-    width: 4px !important;
+    width: 8px !important;
 }
 ::-webkit-scrollbar-track {
     background: #0d1117 !important;
 }
 ::-webkit-scrollbar-thumb {
-    background: #1a2637 !important;
+    background: #ad003a !important;
 }
 
 /* Override jekyll-theme-minimal styles */

@@ -1,12 +1,14 @@
 ---
 ---
-html { font-size: 18px; }
+html { font-size: 17px; }
 
 body {
     background-color: #0d1117 !important;
     color: #d9e6fd !important;
     font-family: 'Inter', sans-serif !important;
     padding: 0 !important;
+    letter-spacing: -0.01em;
+    text-rendering: optimizeLegibility;
 }
 .gemini-gradient {
     background: linear-gradient(90deg, #4285f4, #9b72cb, #f7021a, #f4b400) !important;

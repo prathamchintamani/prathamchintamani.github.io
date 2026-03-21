@@ -4,13 +4,13 @@ layout: default
 
 <!-- Header Block -->
 <section>
-<h1 class="text-5xl md:text-6xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-red-500 to-red-400 tracking-tighter leading-tight mb-2">
+<h1 class="text-5xl md:text-6xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-red-500 to-orange-400 tracking-tighter leading-tight mb-2">
                         Pratham Chintamani
                     </h1>
 <p class="text-xl text-on-surface-variant font-medium">Electrical engineering student.</p>
 </section>
 <!-- UI Divider -->
-<div class="w-full h-[1px] bg-gradient-to-r from-red-500 via-transparent to-red-500 opacity-30 my-8"></div>
+<div class="w-full h-[1px] bg-gradient-to-r from-blue-500/0 via-purple-500/50 to-red-500/0 opacity-30 my-8"></div>
 
 <!-- Main Content Areas -->
 <div class="space-y-8">
@@ -21,19 +21,19 @@ layout: default
                         </h2>
 <ul class="space-y-3">
 <li class="flex items-center gap-3">
-<span class="w-1.5 h-1.5 rounded-full bg-red-400/40"></span>
+<span class="w-1.5 h-1.5 rounded-full bg-gradient-to-r from-purple-500 to-red-500"></span>
 <span class="text-lg text-on-surface">Reinforcement Learning</span>
 </li>
 <li class="flex items-center gap-3">
-<span class="w-1.5 h-1.5 rounded-full bg-red-400/40"></span>
+<span class="w-1.5 h-1.5 rounded-full bg-gradient-to-r from-purple-500 to-red-500"></span>
 <span class="text-lg text-on-surface">Multi-Agent Reinforcement Learning</span>
 </li>
 <li class="flex items-center gap-3">
-<span class="w-1.5 h-1.5 rounded-full bg-red-400/40"></span>
+<span class="w-1.5 h-1.5 rounded-full bg-gradient-to-r from-purple-500 to-red-500"></span>
 <span class="text-lg text-on-surface">Risk-Sensitive RL</span>
 </li>
 <li class="flex items-center gap-3">
-<span class="w-1.5 h-1.5 rounded-full bg-red-400/40"></span>
+<span class="w-1.5 h-1.5 rounded-full bg-gradient-to-r from-purple-500 to-red-500"></span>
 <span class="text-lg text-on-surface">Robust RL</span>
 </li>
 </ul>
@@ -46,11 +46,11 @@ layout: default
                         </h2>
 <ul class="space-y-3">
 <li class="flex items-center gap-3">
-<span class="w-1.5 h-1.5 rounded-full bg-red-400/40"></span>
+<span class="w-1.5 h-1.5 rounded-full bg-gradient-to-r from-purple-500 to-red-500"></span>
 <span class="text-lg text-on-surface/80">Diffusion models</span>
 </li>
 <li class="flex items-center gap-3">
-<span class="w-1.5 h-1.5 rounded-full bg-red-400/40"></span>
+<span class="w-1.5 h-1.5 rounded-full bg-gradient-to-r from-purple-500 to-red-500"></span>
 <span class="text-lg text-on-surface/80">Computer Vision</span>
 </li>
 </ul>
@@ -63,19 +63,19 @@ layout: default
                         </h2>
 <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
 <div class="flex items-center gap-2">
-<span class="material-symbols-outlined text-red-400 text-sm">settings_input_component</span>
+<span class="material-symbols-outlined text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-red-500 text-sm">settings_input_component</span>
 <span class="text-lg text-on-surface">PyTorch</span>
 </div>
 <div class="flex items-center gap-2">
-<span class="material-symbols-outlined text-red-400 text-sm">memory</span>
+<span class="material-symbols-outlined text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-red-500 text-sm">memory</span>
 <span class="text-lg text-on-surface">CUDA</span>
 </div>
 <div class="flex items-center gap-2">
-<span class="material-symbols-outlined text-red-400 text-sm">code</span>
+<span class="material-symbols-outlined text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-red-500 text-sm">code</span>
 <span class="text-lg text-on-surface">Python</span>
 </div>
 <div class="flex items-center gap-2">
-<span class="material-symbols-outlined text-red-400 text-sm">terminal</span>
+<span class="material-symbols-outlined text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-red-500 text-sm">terminal</span>
 <span class="text-lg text-on-surface">Linux &gt; Windows</span>
 </div>
 </div>
@@ -83,4 +83,4 @@ layout: default
 </div>
 
 <!-- Footer Divider -->
-<div class="w-full h-[1px] bg-gradient-to-r from-transparent via-red-500 to-transparent opacity-20 mt-8 mb-4"></div>
+<div class="w-full h-[1px] bg-gradient-to-r from-blue-500/0 via-purple-500/50 to-red-500/0 opacity-20 mt-8 mb-4"></div>

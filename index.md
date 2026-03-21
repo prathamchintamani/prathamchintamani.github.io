@@ -13,10 +13,10 @@ layout: default
 <div class="w-full h-[1px] bg-gradient-to-r from-red-500 via-transparent to-red-500 opacity-30 my-8"></div>
 
 <!-- Main Content Areas -->
-<div class="space-y-12">
+<div class="space-y-8">
 <!-- MOSTLY WORKING ON -->
 <section>
-<h2 class="text-xs font-bold uppercase tracking-[0.2em] text-red-400 mb-6 flex items-center gap-2">
+<h2 class="text-xs font-bold uppercase tracking-[0.2em] text-red-400 mb-4 flex items-center gap-2">
                             MOSTLY WORKING ON:
                         </h2>
 <ul class="space-y-3">
@@ -41,7 +41,7 @@ layout: default
 
 <!-- OCCASIONALLY -->
 <section>
-<h2 class="text-xs font-bold uppercase tracking-[0.2em] text-on-surface-variant mb-6 flex items-center gap-2">
+<h2 class="text-xs font-bold uppercase tracking-[0.2em] text-on-surface-variant mb-4 flex items-center gap-2">
                             OCCASIONALLY:
                         </h2>
 <ul class="space-y-3">
@@ -58,10 +58,10 @@ layout: default
 
 <!-- TOOLS -->
 <section>
-<h2 class="text-xs font-bold uppercase tracking-[0.2em] text-on-surface-variant mb-6 flex items-center gap-2">
+<h2 class="text-xs font-bold uppercase tracking-[0.2em] text-on-surface-variant mb-4 flex items-center gap-2">
                             TOOLS:
                         </h2>
-<div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+<div class="grid grid-cols-2 md:grid-cols-4 gap-4">
 <div class="flex items-center gap-2">
 <span class="material-symbols-outlined text-red-400 text-sm">settings_input_component</span>
 <span class="text-lg text-on-surface">PyTorch</span>
@@ -83,4 +83,4 @@ layout: default
 </div>
 
 <!-- Footer Divider -->
-<div class="w-full h-[1px] bg-gradient-to-r from-transparent via-red-500 to-transparent opacity-20 mt-20"></div>
+<div class="w-full h-[1px] bg-gradient-to-r from-transparent via-red-500 to-transparent opacity-20 mt-8 mb-4"></div>

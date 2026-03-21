@@ -10,10 +10,10 @@ layout: default
 <p class="text-xl text-on-surface-variant font-medium">Electrical engineering student | Indian Institute of Technology, Tirupati</p>
 </section>
 <!-- UI Divider -->
-<div class="w-full h-[1px] bg-gradient-to-r from-blue-500/0 via-purple-500/50 to-red-500/0 opacity-30 my-8"></div>
+<div class="h-[1px] bg-gradient-to-r from-blue-500/0 via-purple-500/50 to-red-500/0 opacity-30 my-8 -mx-4 md:-mx-8 lg:-mx-16"></div>
 
 <!-- Main Content Areas -->
-<div class="space-y-8">
+<div class="space-y-16">
 <!-- MOSTLY WORKING ON -->
 <section>
 <h2 class="text-xs font-bold uppercase tracking-[0.2em] text-red-400 mb-4 flex items-center gap-2">
@@ -83,4 +83,4 @@ layout: default
 </div>
 
 <!-- Footer Divider -->
-<div class="w-full h-[1px] bg-gradient-to-r from-blue-500/0 via-purple-500/50 to-red-500/0 opacity-20 mt-8 mb-4"></div>
+<div class="h-[1px] bg-gradient-to-r from-blue-500/0 via-purple-500/50 to-red-500/0 opacity-20 mt-16 mb-4 -mx-4 md:-mx-8 lg:-mx-16"></div>

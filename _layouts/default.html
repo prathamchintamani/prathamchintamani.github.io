@@ -127,11 +127,18 @@
 <body class="flex flex-col min-h-screen antialiased bg-[#0a0e14] relative overflow-x-hidden">
 
   <!-- Ambient Background Orbs -->
-  <div class="fixed inset-0 z-0 pointer-events-none overflow-hidden flex items-center justify-center">
-    <div class="absolute top-[10%] left-[10%] w-[500px] h-[500px] bg-red-900/30 rounded-full mix-blend-screen filter blur-[150px] animate-blob" style="animation-duration: 12s;"></div>
-    <div class="absolute top-[15%] right-[10%] w-[600px] h-[600px] bg-cyan-900/20 rounded-full mix-blend-screen filter blur-[150px] animate-blob" style="animation-duration: 15s; animation-delay: 2s;"></div>
-    <div class="absolute bottom-[10%] left-[15%] w-[550px] h-[550px] bg-orange-900/20 rounded-full mix-blend-screen filter blur-[150px] animate-blob" style="animation-duration: 14s; animation-delay: 4s;"></div>
-    <div class="absolute bottom-[15%] right-[15%] w-[450px] h-[450px] bg-fuchsia-900/30 rounded-full mix-blend-screen filter blur-[150px] animate-blob" style="animation-duration: 18s; animation-delay: 1s;"></div>
+  <div class="fixed inset-0 z-0 pointer-events-none overflow-hidden">
+    <!-- Top Left: Behind header, cool tone so text pops -->
+    <div class="absolute top-[-10%] left-[-10%] w-[600px] h-[600px] bg-blue-900/20 rounded-full mix-blend-screen filter blur-[150px] animate-blob" style="animation-duration: 12s;"></div>
+
+    <!-- Top Right: Behind nav -->
+    <div class="absolute top-[-5%] right-[-10%] w-[550px] h-[550px] bg-cyan-900/20 rounded-full mix-blend-screen filter blur-[150px] animate-blob" style="animation-duration: 15s; animation-delay: 2s;"></div>
+
+    <!-- Center: Soft background glow -->
+    <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[700px] h-[700px] bg-purple-900/20 rounded-full mix-blend-screen filter blur-[160px] animate-blob" style="animation-duration: 14s; animation-delay: 4s;"></div>
+
+    <!-- Bottom: Warm tone near footer -->
+    <div class="absolute bottom-[-15%] right-[10%] w-[600px] h-[600px] bg-rose-900/20 rounded-full mix-blend-screen filter blur-[150px] animate-blob" style="animation-duration: 18s; animation-delay: 1s;"></div>
   </div>
 
   <header class="bg-[#0a0e14]/80 backdrop-blur-sm fixed top-0 w-full z-50 border-t-2 border-transparent"

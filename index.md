@@ -23,7 +23,7 @@ layout: default
 <div class="w-full h-[2px] bg-gradient-to-r from-blue-500/0 via-fuchsia-500 to-orange-500 opacity-30 my-8"></div>
 
 <!-- Main Content Areas -->
-<div class="space-y-8">
+<div class="space-y-8 max-w-[720px]">
 <!-- MOSTLY WORKING ON -->
 <section>
 <h2 class="text-sm font-semibold uppercase tracking-[0.25em] text-orange-400 mb-4">

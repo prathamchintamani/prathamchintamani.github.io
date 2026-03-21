@@ -3,17 +3,24 @@ layout: default
 title: Projects
 ---
 
-<div class="space-y-6">
+<div class="space-y-5 max-w-[720px]">
 
 <h1 class="text-4xl md:text-5xl font-extrabold tracking-tight">
   Projects
 </h1>
 
 <!-- Project 1 -->
-<div class="group p-5 rounded-xl border border-zinc-800/60 
-            hover:border-zinc-600/80 
-            bg-zinc-900/20 hover:bg-zinc-900/40
+<div class="group relative p-6 rounded-2xl border border-zinc-800/50
+            bg-gradient-to-b from-zinc-900/40 to-zinc-900/10
+            hover:from-zinc-800/50 hover:to-zinc-900/20
+            hover:border-zinc-600/60
+            shadow-[0_0_0_1px_rgba(255,255,255,0.02)]
+            hover:shadow-[0_10px_30px_rgba(0,0,0,0.25)]
             transition-all duration-300">
+    <div class="absolute inset-0 rounded-2xl opacity-0 group-hover:opacity-100 
+            transition duration-300 pointer-events-none
+            bg-gradient-to-r from-orange-500/5 via-fuchsia-500/5 to-cyan-500/5">
+    </div>
   <h2 class="text-xl font-semibold text-orange-400 
            group-hover:text-orange-300 transition">
     Intelligent Radio Sensing with Multi-Armed Bandits
@@ -26,10 +33,17 @@ title: Projects
 </div>
 
 <!-- Project 2 -->
-<div class="group p-5 rounded-xl border border-zinc-800/60 
-            hover:border-zinc-600/80 
-            bg-zinc-900/20 hover:bg-zinc-900/40
+<div class="group relative p-6 rounded-2xl border border-zinc-800/50
+            bg-gradient-to-b from-zinc-900/40 to-zinc-900/10
+            hover:from-zinc-800/50 hover:to-zinc-900/20
+            hover:border-zinc-600/60
+            shadow-[0_0_0_1px_rgba(255,255,255,0.02)]
+            hover:shadow-[0_10px_30px_rgba(0,0,0,0.25)]
             transition-all duration-300">
+    <div class="absolute inset-0 rounded-2xl opacity-0 group-hover:opacity-100 
+            transition duration-300 pointer-events-none
+            bg-gradient-to-r from-orange-500/5 via-fuchsia-500/5 to-cyan-500/5">
+    </div>
   <h2 class="text-xl font-semibold text-orange-400 
            group-hover:text-orange-300 transition">
     Primal-Dual Optimization for OFDM Systems
@@ -40,10 +54,17 @@ title: Projects
 </div>
 
 <!-- Project 3 -->
-<div class="group p-5 rounded-xl border border-zinc-800/60 
-            hover:border-zinc-600/80 
-            bg-zinc-900/20 hover:bg-zinc-900/40
+<div class="group relative p-6 rounded-2xl border border-zinc-800/50
+            bg-gradient-to-b from-zinc-900/40 to-zinc-900/10
+            hover:from-zinc-800/50 hover:to-zinc-900/20
+            hover:border-zinc-600/60
+            shadow-[0_0_0_1px_rgba(255,255,255,0.02)]
+            hover:shadow-[0_10px_30px_rgba(0,0,0,0.25)]
             transition-all duration-300">
+    <div class="absolute inset-0 rounded-2xl opacity-0 group-hover:opacity-100 
+            transition duration-300 pointer-events-none
+            bg-gradient-to-r from-orange-500/5 via-fuchsia-500/5 to-cyan-500/5">
+    </div>
   <h2 class="text-xl font-semibold text-orange-400 
            group-hover:text-orange-300 transition">
     Diffusion-based Super Resolution (SR3)
@@ -54,10 +75,17 @@ title: Projects
 </div>
 
 <!-- Project 4 -->
-<div class="group p-5 rounded-xl border border-zinc-800/60 
-            hover:border-zinc-600/80 
-            bg-zinc-900/20 hover:bg-zinc-900/40
+<div class="group relative p-6 rounded-2xl border border-zinc-800/50
+            bg-gradient-to-b from-zinc-900/40 to-zinc-900/10
+            hover:from-zinc-800/50 hover:to-zinc-900/20
+            hover:border-zinc-600/60
+            shadow-[0_0_0_1px_rgba(255,255,255,0.02)]
+            hover:shadow-[0_10px_30px_rgba(0,0,0,0.25)]
             transition-all duration-300">
+    <div class="absolute inset-0 rounded-2xl opacity-0 group-hover:opacity-100 
+            transition duration-300 pointer-events-none
+            bg-gradient-to-r from-orange-500/5 via-fuchsia-500/5 to-cyan-500/5">
+    </div>
   <h2 class="text-xl font-semibold text-orange-400 
            group-hover:text-orange-300 transition">
     Fault-Tolerant Quadrotor Control

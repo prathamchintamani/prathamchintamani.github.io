@@ -17,7 +17,7 @@ body {
     font-family: 'JetBrains Mono', monospace !important;
 }
 .content-container {
-  max-width: 1100px !important;   /* main body stays readable */
+  max-width: 1100px !important;   /* was 1280 → too wide illusion */
 }
 
 main > div {

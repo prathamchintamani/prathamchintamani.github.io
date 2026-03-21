@@ -3,25 +3,24 @@ layout: default
 ---
 
 <!-- Header Block -->
-<section class="space-y-4 max-w-[1200px]">
-  <h1 class="text-6xl md:text-7xl lg:text-8xl font-extrabold tracking-tighter leading-[1.05]
+<section class="space-y-3">
+  <h1 class="text-5xl md:text-6xl lg:text-7xl font-extrabold tracking-tighter leading-tight
              text-transparent bg-clip-text bg-gradient-to-r from-orange-500 via-pink-500 to-purple-500">
     Pratham Chintamani
   </h1>
 
-  <p class="text-2xl md:text-3xl text-zinc-300 font-medium">
+  <p class="text-xl md:text-2xl text-zinc-300 font-medium">
     Electrical engineering student · Indian Institute of Technology, Tirupati
   </p>
 
-  <div class="text-base text-zinc-400 flex gap-5">
-    <a href="https://linkedin.com/in/prathamchintamani" class="hover:text-white transition">LinkedIn</a>
-    <a href="mailto:ee23b041@iittp.ac.in" class="hover:text-white transition">Email</a>
+  <!-- subtle identity links -->
+  <div class="text-sm text-zinc-400 flex gap-4">
+    <a href="https://linkedin.com/in/prathamchintamani" class="hover:text-white transition-all duration-200 hover:underline underline-offset-4">LinkedIn</a>
+    <a href="mailto:ee23b041@iittp.ac.in" class="hover:text-white transition-all duration-200 hover:underline underline-offset-4">Email</a>
   </div>
 </section>
 <!-- UI Divider -->
-<div class="relative left-1/2 -translate-x-1/2 w-screen h-[1px]
-            bg-gradient-to-r from-transparent via-fuchsia-500/50 to-orange-500/50 opacity-30 my-10">
-</div>
+<div class="w-full h-[2px] bg-gradient-to-r from-blue-500/0 via-fuchsia-500 to-orange-500 opacity-30 my-8"></div>
 
 <!-- Main Content Areas -->
 <div class="space-y-8 max-w-[720px]">
@@ -94,6 +93,4 @@ layout: default
 </div>
 
 <!-- Footer Divider -->
-<div class="relative left-1/2 -translate-x-1/2 w-screen h-[1px]
-            bg-gradient-to-r from-transparent via-fuchsia-500/50 to-orange-500/50 opacity-30 my-10">
-</div>
+<div class="w-full h-[2px] bg-gradient-to-r from-blue-500/0 via-fuchsia-500 to-orange-500 opacity-20 mt-8 mb-4"></div>

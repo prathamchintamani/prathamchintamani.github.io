@@ -4,7 +4,7 @@ layout: default
 
 <!-- Header Block -->
 <section class="space-y-3">
-  <h1 class="text-6xl md:text-7xl font-extrabold tracking-tighter leading-tight
+  <h1 class="text-5xl md:text-6xl lg:text-7xl font-extrabold tracking-tighter leading-tight
              text-transparent bg-clip-text bg-gradient-to-r from-orange-500 via-pink-500 to-purple-500">
     Pratham Chintamani
   </h1>
@@ -15,8 +15,8 @@ layout: default
 
   <!-- subtle identity links -->
   <div class="text-sm text-zinc-400 flex gap-4">
-    <a href="https://linkedin.com/in/prathamchintamani" class="hover:text-zinc-200">LinkedIn</a>
-    <a href="mailto:ee23b041@iittp.ac.in" class="hover:text-zinc-200">Email</a>
+    <a href="https://linkedin.com/in/prathamchintamani" class="hover:text-white transition-all duration-200 hover:underline underline-offset-4">LinkedIn</a>
+    <a href="mailto:ee23b041@iittp.ac.in" class="hover:text-white transition-all duration-200 hover:underline underline-offset-4">Email</a>
   </div>
 </section>
 <!-- UI Divider -->

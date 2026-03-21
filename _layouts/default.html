@@ -75,6 +75,25 @@
               "mono": ["JetBrains Mono", "monospace"]
             },
             borderRadius: {"DEFAULT": "0px", "lg": "0px", "xl": "0px", "full": "9999px"},
+            animation: {
+              "blob": "blob 10s infinite",
+            },
+            keyframes: {
+              blob: {
+                "0%": {
+                  transform: "translate(0px, 0px) scale(1)",
+                },
+                "33%": {
+                  transform: "translate(30px, -50px) scale(1.1)",
+                },
+                "66%": {
+                  transform: "translate(-20px, 20px) scale(0.9)",
+                },
+                "100%": {
+                  transform: "translate(0px, 0px) scale(1)",
+                },
+              },
+            },
           },
         },
       }
@@ -105,7 +124,16 @@
         }
   </style>
 </head>
-<body class="flex flex-col min-h-screen antialiased bg-[#0d1117]">
+<body class="flex flex-col min-h-screen antialiased bg-[#0a0e14] relative overflow-x-hidden">
+
+  <!-- Ambient Background Orbs -->
+  <div class="fixed inset-0 z-0 pointer-events-none overflow-hidden flex items-center justify-center">
+    <div class="absolute top-1/4 left-1/4 w-[400px] h-[400px] bg-red-900/30 rounded-full mix-blend-screen filter blur-[120px] animate-blob" style="animation-duration: 12s;"></div>
+    <div class="absolute top-1/3 right-1/4 w-[500px] h-[500px] bg-cyan-900/20 rounded-full mix-blend-screen filter blur-[120px] animate-blob" style="animation-duration: 15s; animation-delay: 2s;"></div>
+    <div class="absolute bottom-1/4 left-1/3 w-[450px] h-[450px] bg-orange-900/20 rounded-full mix-blend-screen filter blur-[120px] animate-blob" style="animation-duration: 14s; animation-delay: 4s;"></div>
+    <div class="absolute bottom-1/3 right-1/3 w-[350px] h-[350px] bg-fuchsia-900/30 rounded-full mix-blend-screen filter blur-[120px] animate-blob" style="animation-duration: 18s; animation-delay: 1s;"></div>
+  </div>
+
   <header class="bg-[#0a0e14]/80 backdrop-blur-sm fixed top-0 w-full z-50 border-t-2 border-transparent"
   style="border-image: linear-gradient(to right, transparent, #f97316, #d946ef, #06b6d4, transparent) 1;">
 
@@ -146,7 +174,7 @@
     </div>
   </main>
 
-  <footer class="w-full py-8 border-t-[0.5px] border-[#1a2637] bg-[#0a0e14] relative">
+  <footer class="w-full mt-auto py-8 border-t-[0.5px] border-[#1a2637] bg-[#0a0e14] relative">
     <div class="absolute inset-x-0 top-0 h-[1px] bg-gradient-to-r from-transparent via-purple-500/50 to-red-500/0"></div>
     <div class="max-w-[1200px] mx-auto px-4 md:px-8 flex flex-col md:flex-row justify-end items-center gap-6">
       <div class="flex flex-wrap justify-end gap-x-12 gap-y-4">

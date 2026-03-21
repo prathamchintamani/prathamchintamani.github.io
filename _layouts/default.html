@@ -106,14 +106,15 @@
   </style>
 </head>
 <body class="flex flex-col min-h-screen antialiased bg-[#0d1117]">
-  <header class="bg-[#0a0e14]/80 backdrop-blur-sm fixed top-0 w-full z-50">
+  <header class="bg-[#0a0e14]/80 backdrop-blur-sm fixed top-0 w-full z-50 border-t-2 border-transparent" style="border-image: linear-gradient(to right, transparent, #ef4444, transparent) 1;">
     <div class="max-w-[850px] mx-auto px-6 h-16 flex items-center justify-between">
-      <span class="text-lg font-bold tracking-tighter text-[#a2c9ff]">Academic Portfolio</span>
+      {% if page.url != "/" %}
+        <span class="text-lg font-bold tracking-tighter text-transparent bg-clip-text bg-gradient-to-r from-red-500 to-red-400">Pratham Chintamani</span>
+      {% else %}
+        <span></span>
+      {% endif %}
       <nav class="hidden md:flex gap-6 items-center">
-        <a class="font-['Inter'] font-medium tracking-tight text-sm text-[#a2c9ff] border-b border-[#a2c9ff] pb-1 hover:underline decoration-1 underline-offset-4" href="#">Research</a>
-        <a class="font-['Inter'] font-medium tracking-tight text-sm text-[#9facc1] hover:text-[#a2c9ff] transition-colors duration-0 hover:underline decoration-1 underline-offset-4" href="#">Publications</a>
-        <a class="font-['Inter'] font-medium tracking-tight text-sm text-[#9facc1] hover:text-[#a2c9ff] transition-colors duration-0 hover:underline decoration-1 underline-offset-4" href="#">Teaching</a>
-        <a class="font-['Inter'] font-medium tracking-tight text-sm text-[#9facc1] hover:text-[#a2c9ff] transition-colors duration-0 hover:underline decoration-1 underline-offset-4" href="#">CV</a>
+        <a class="font-['Inter'] font-medium tracking-tight text-sm text-[#9facc1] hover:text-[#a2c9ff] transition-colors duration-0 hover:underline decoration-1 underline-offset-4" href="/publications">Publications</a>
       </nav>
     </div>
   </header>
@@ -126,14 +127,14 @@
     </div>
   </main>
 
-  <footer class="w-full py-12 border-t-[0.5px] border-[#1a2637] bg-[#0a0e14]">
-    <div class="max-w-[850px] mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-6">
-      <span class="font-['Inter'] text-[0.7rem] uppercase tracking-widest text-[#9facc1]">© 2024 Digital Monolith Archive</span>
+  <footer class="w-full py-12 border-t-[0.5px] border-[#1a2637] bg-[#0a0e14] relative">
+    <div class="absolute inset-x-0 top-0 h-[1px] bg-gradient-to-r from-transparent via-red-500/50 to-transparent"></div>
+    <div class="max-w-[850px] mx-auto px-6 flex flex-col md:flex-row justify-end items-center gap-6">
       <div class="flex gap-8">
-        <a class="font-['Inter'] text-[0.7rem] uppercase tracking-widest text-[#9facc1] hover:text-[#a2c9ff] transition-colors duration-0" href="#">GitHub</a>
+        <a class="font-['Inter'] text-[0.7rem] uppercase tracking-widest text-[#9facc1] hover:text-[#a2c9ff] transition-colors duration-0" href="https://github.com/prathamchintamani">GitHub</a>
         <a class="font-['Inter'] text-[0.7rem] uppercase tracking-widest text-[#9facc1] hover:text-[#a2c9ff] transition-colors duration-0" href="#">Google Scholar</a>
-        <a class="font-['Inter'] text-[0.7rem] uppercase tracking-widest text-[#9facc1] hover:text-[#a2c9ff] transition-colors duration-0" href="#">Twitter</a>
-        <a class="font-['Inter'] text-[0.7rem] uppercase tracking-widest text-[#9facc1] hover:text-[#a2c9ff] transition-colors duration-0" href="#">Email</a>
+        <a class="font-['Inter'] text-[0.7rem] uppercase tracking-widest text-[#9facc1] hover:text-[#a2c9ff] transition-colors duration-0" href="https://linkedin.com/in/prathamchintamani">LinkedIn</a>
+        <a class="font-['Inter'] text-[0.7rem] uppercase tracking-widest text-[#9facc1] hover:text-[#a2c9ff] transition-colors duration-0" href="mailto:ee23b041@iittp.ac.in">Email</a>
       </div>
     </div>
   </footer>

@@ -1,8 +1,7 @@
 #  The contact options.
-
 - type: linkedin
   icon: "fab fa-linkedin"
-  url: "https://www.linkedin.com/in/prathamchintamani"                 # Fill with your Linkedin homepage
+  url: "https://www.linkedin.com/in/prathamchintamani"
 
 - type: google-scholar
   icon: "fas fa-graduation-cap"
@@ -10,17 +9,16 @@
 
 - type: github
   icon: "fab fa-github"
+  url: "https://github.com/prathamchintamani"
 
 - type: twitter
   icon: "fa-brands fa-x-twitter"
+  url: "https://twitter.com/ramtesla"
 
 - type: email
   icon: "fas fa-envelope"
-  noblank: true # open link in current tab
-
-- type: rss
-  icon: "fas fa-rss"
   noblank: true
+# open link in current tab
 # Uncomment and complete the url below to enable more contact options
 #
 # - type: mastodon

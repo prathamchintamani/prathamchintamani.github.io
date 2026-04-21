@@ -32,16 +32,13 @@ twitter:
   username: ramtesla # change to your Twitter username
 
 social:
-  # Change to your full name.
-  # It will be displayed as the default author of the posts and the copyright owner in the Footer
   name: Pratham Chintamani
-  email: ee23b041@iittp.ac.in # change to your email address
+  email: ee23b041@iittp.ac.in
   links:
-    # The first element serves as the copyright owner's link
     - https://www.linkedin.com/in/prathamchintamani
     - https://github.com/prathamchintamani
-    - https://twitter.com/ramtesla # change to your Twitter homepage
-    - https://www.linkedin.com/in/prathamchintamani
+    - https://twitter.com/ramtesla
+    - https://scholar.google.com/citations?user=placeholder
     
 
 # Site Verification Settings

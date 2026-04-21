@@ -1,15 +1,15 @@
 ---
-title: Why AI Cooperation Fails (And How We Fixed It)
+title: Price of Paranoia - ALA AAMAS 2026
 date: 2026-04-21 18:00:00 +0530
 categories: [Research, RL]
 tags: [MARL, Risk-Sensitive RL]
 ---
 
 
-In our latest paper, **"The Price of Paranoia,"** (accepted to AAMAS 2026) we found that AI agents often stop working together because they are *too* cautious. 
+**Paper Title:** The Price of Paranoia: Robust Risk-Sensitive Cooperation in Non-Stationary Multi-Agent Reinforcement Learning
 
-When one agent explores, the other sees it as betrayal. This triggers a "paranoia" cycle where everyone starts defecting towards a suboptimal nash equilibrium.
+**Venue:** Adaptive Learning Agents (ALA) workshop @ AAMAS 2026
 
-We fixed this with **RATTL**, a lightweight trust mechanism that helps agents distinguish between "partner noise" and "actual betrayal."
+Every gradient step an agent takes shifts the distribution of its partner's actions, turning cooperative partners into sources of stochastic noise that can trigger irreversible defection cascades. We introduce **RATTL**, which modulates gradient updates based on partner unpredictability to sustain cooperation even under severe non-stationarity.
 
-Check out the full paper here: https://arxiv.org/abs/2604.15695v1
+**Full Paper:** https://arxiv.org/abs/2604.15695v1

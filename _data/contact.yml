@@ -1,5 +1,13 @@
 #  The contact options.
 
+- type: linkedin
+  icon: "fab fa-linkedin"
+  url: "https://www.linkedin.com/in/prathamchintamani"                 # Fill with your Linkedin homepage
+
+- type: google-scholar
+  icon: "fas fa-graduation-cap"
+  url: "https://www.linkedin.com/in/prathamchintamani"
+
 - type: github
   icon: "fab fa-github"
 
@@ -19,14 +27,6 @@
 #   icon: 'fab fa-mastodon'   # icons powered by <https://fontawesome.com/>
 #   url:  ''                  # Fill with your Mastodon account page, rel="me" will be applied for verification
 #
-- type: linkedin
-  icon: "fab fa-linkedin"
-  url: "https://www.linkedin.com/in/prathamchintamani"                 # Fill with your Linkedin homepage
-
-- type: google-scholar
-  icon: "fas fa-graduation-cap"
-  url: "https://www.linkedin.com/in/prathamchintamani"
-
 #
 # - type: stack-overflow
 #   icon: 'fab fa-stack-overflow'

@@ -8,7 +8,7 @@ order: 4
 Third-year Electrical Engineering undergraduate at **IIT Tirupati**. My research interests is Reinforcement Learning.
 
 ## Education
-* B.Tech in Electrical Engineering | **Indian Institute of Technology, Tirupati** (2023 - 2027) 
+* B.Tech in Electrical Engineering , **Indian Institute of Technology, Tirupati** (2023 - 2027) 
 
 ## Achievements & Honors
 * **Intel Andy Grove Scholarship** Recipient (2025)

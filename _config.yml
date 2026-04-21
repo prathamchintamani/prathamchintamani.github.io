@@ -38,9 +38,11 @@ social:
   email: ee23b041@iittp.ac.in # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/ramtesla # change to your Twitter homepage
-    - https://github.com/prathamchintamani # change to your GitHub homepage
     - https://www.linkedin.com/in/prathamchintamani
+    - https://github.com/prathamchintamani
+    - https://twitter.com/ramtesla # change to your Twitter homepage
+    - https://www.linkedin.com/in/prathamchintamani
+    
 
 # Site Verification Settings
 webmaster_verifications:

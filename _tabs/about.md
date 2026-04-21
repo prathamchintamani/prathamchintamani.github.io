@@ -5,7 +5,7 @@ order: 4
 ---
 
 ## Bio
-Third-year Electrical Engineering undergraduate at **IIT Tirupati**. My research interests lie at the intersection of **Multi-Agent Reinforcement Learning (MARL)**, Robust Control, and Safe RL.
+Third-year Electrical Engineering undergraduate at **IIT Tirupati**. My research interests is Reinforcement Learning.
 
 ## Education
 * **B.Tech in Electrical Engineering** | Indian Institute of Technology, Tirupati (2023 - 2027)

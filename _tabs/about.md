@@ -11,8 +11,9 @@ Third-year Electrical Engineering undergraduate at **IIT Tirupati**. My research
 * B.Tech in Electrical Engineering | **Indian Institute of Technology, Tirupati** (2023 - 2027) 
 
 ## Achievements & Honors
+* **Intel Andy Grove Scholarship** Recipient (2025)
 * **Bronze Medal**, Inter IIT TechMeet 13.0 (Fault-tolerant PID controller for quadrotors).
-* **Contingent Leader**, Inter IIT TechMeet 14.0 (IIT Patna).
+* **Silver Medal**, Pathway x IIT Ropar Hackathon (Dynamic RAG research assistant)
 
 ## Leadership
 * **Contingent Leader**, IIT Tirupati, InterIIT TechMeet 14.0

@@ -2,7 +2,7 @@
 title: Why AI Cooperation Fails (And How We Fixed It)
 date: 2026-04-21 18:00:00 +0530
 categories: [Research, RL]
-tags: [marl, robustness]
+tags: [MARL, Risk-Sensitive RL]
 ---
 
 

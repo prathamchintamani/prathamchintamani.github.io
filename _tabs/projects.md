@@ -7,9 +7,7 @@ order: 3
 
 # Research
 
-### The Price of Paranoia: Robust Risk-Sensitive Cooperation in Non-Stationary Multi-Agent Reinforcement Learning
-**AAMAS 2026 (ALA Workshop)**
-Developed **RATTL**, an algorithm that uses a closed-form trust factor to resolve the **EVaR Paradox** in MARL. By targeting policy gradient update variance rather than return distributions, we provably expand the cooperation basin in coordination games.
+* **The Price of Paranoia: Robust Risk-Sensitive Cooperation in Non-Stationary Multi-Agent Reinforcement Learning**: **AAMAS 2026 (ALA Workshop)**. Developed **RATTL**, an algorithm that uses a closed-form trust factor to resolve the **EVaR Paradox** in MARL. By targeting policy gradient update variance rather than return distributions, we provably expand the cooperation basin in coordination games.
 
 # Projects
 

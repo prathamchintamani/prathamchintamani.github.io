@@ -16,11 +16,10 @@ timezone: Asia/Kolkata
 
 title: Pratham C # the main title
 
-tagline: A text-focused Jekyll theme # it will display as the subtitle
+tagline: Electrical Engineering Undergrad @ IIT Tirupati # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
-  A minimal, responsive and feature-rich Jekyll theme for technical writing.
-
+  Third-year student at IIT Tirupati | RL
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
 url: "https://prathamchintamani.github.io"
@@ -29,7 +28,7 @@ github:
   username: prathamchintamani # change to your GitHub username
 
 twitter:
-  username: twitter_username # change to your Twitter username
+  username: ramtesla # change to your Twitter username
 
 social:
   # Change to your full name.
@@ -39,7 +38,7 @@ social:
   fediverse_handle: # fill in your fediverse handle. E.g. "@username@domain.com"
   links:
     # The first element serves as the copyright owner's link
-    #- https://twitter.com/username # change to your Twitter homepage
+    - https://twitter.com/ramtesla # change to your Twitter homepage
     - https://github.com/prathamchintamani # change to your GitHub homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
@@ -89,7 +88,7 @@ pageviews:
 #     light — Use the light color scheme
 #     dark — Use the dark color scheme
 #
-theme_mode: # [light | dark]
+theme_mode: dark # [light | dark]
 
 # The CDN endpoint for media resources.
 # Notice that once it is assigned, the CDN url
@@ -107,6 +106,7 @@ social_preview_image: # string, local or CORS resources
 
 # boolean type, the global switch for TOC in posts.
 toc: true
+math: true
 
 comments:
   # Global switch for the post-comment system. Keeping it empty means disabled.

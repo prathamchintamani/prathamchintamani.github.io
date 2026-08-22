@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Publications
+title: Research
 icon: fas fa-book
 order: 2
 ---
@@ -16,7 +16,11 @@ order: 2
 We introduce **RATTL** (Robust Adaptive Trust-Region Learning), an algorithm designed to sustain cooperation in non-stationary MARL by modulating updates based on partner unpredictability. By resolving the **EVaR Paradox** and targeting policy gradient update variance, we provably expand the cooperation basin in coordination games.
 
 #### **BibTeX**
-```bibtex
+
+<details>
+<summary>Show BibTeX</summary>
+
+{% highlight bibtex %}
 @misc{ganguly2026priceparanoiarobustrisksensitive,
       title={The Price of Paranoia: Robust Risk-Sensitive Cooperation in Non-Stationary Multi-Agent Reinforcement Learning}, 
       author={Deep Kumar Ganguly and Chandradithya S Jonnalagadda and Pratham Chintamani and Adithya Ananth},
@@ -26,4 +30,6 @@ We introduce **RATTL** (Robust Adaptive Trust-Region Learning), an algorithm des
       primaryClass={cs.GT},
       url={[https://arxiv.org/abs/2604.15695](https://arxiv.org/abs/2604.15695)}, 
 }
-```
+{% endhighlight %}
+
+</details>

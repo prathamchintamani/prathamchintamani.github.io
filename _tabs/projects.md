@@ -11,8 +11,8 @@ order: 3
 
 # Projects
 
-* **Fault-Tolerant Quadrotor Control**: Developed an autonomous motor-failure detection system with a PID controller for stable emergency landings; achieved 97.5% detection accuracy. **Awarded Bronze at Inter IIT TechMeet 13.0**.
-* **Intelligent Radio Sensing**: Designed a UCB-based Multi-Armed Bandit framework with GNNs to optimize radio channel scanning for Arista Networks; secured **10th place** at Inter IIT 14.0.
-* **QoS-Aware OFDM Resource Allocation**: Developed a scheduler to maximize throughput under **hard minimum-rate constraints** using **Lagrangian Dual Decomposition**. Implemented a **Shadow Price Capping** mechanism to prevent network instability during deep-fade scenarios by handling physical infeasibility.
-* **Diffusion Super Resolution**: Implemented a DDPM (SR3) architecture in PyTorch, utilizing Self-Attention and Resize-Convolutions to improve global texture coherence.
-* **Rocket Avionics Board**: Designed a 60mm x 100mm flight board for real-time sensor logging and apogee-triggered parachute recovery for a 2km launch rocket.
+* **Reinforcement Learning & Robotics (StochLab, IISc)**: Extended the *VipLoco* visual world-model framework for height-conditioned locomotion and low-clearance traversal. Designed composite reward formulations for gait stability and validated zero-shot policy transfer between Isaac Lab and MuJoCo for deployment on quadruped hardware.
+* **Intelligent Radio Sensing with Multi-Armed Bandits**: **10th Place at Inter IIT TechMeet 14.0 (Arista Networks Challenge)**. Designed a UCB-based Multi-Armed Bandit framework with EWMA rewards and built a Model-Based RL system using a GNN environment model to evaluate action safety.
+* **Primal-Dual Optimization of Systems with Hard Feasibility Constraints**: Formulated a Lagrangian-based OFDM scheduler enforcing strict QoS guarantees under hard minimum-rate constraints with a shadow price capping mechanism to handle infeasibility.
+* **Single Image Super Resolution**: Implemented and trained a Diffusion Probabilistic Model (DDPM/SR3) in PyTorch, using Resize-Convolutions and Self-Attention to eliminate checkerboard artifacts and improve texture coherence. [GitHub](https://github.com/prathamchintamani/deblur-upscale-diff)
+* **Fault-Tolerant Quadrotor Control**: **Bronze Medal at Inter IIT TechMeet 13.0 (IdeaForge Challenge)**. Developed an autonomous motor failure detection system with a fault-tolerant PID controller in C++/PX4, achieving 97.5% detection accuracy and 100% stable landings. [GitHub](https://github.com/ChiragKotian/HPIF)
